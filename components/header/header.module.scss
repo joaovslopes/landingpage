@@ -6,7 +6,8 @@
   background-color: $purple-color;
   border-bottom: 0.5px solid $gray-color;
 
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-content: space-between;
 }
@@ -24,4 +25,5 @@
   font-weight: bold;
   background-color: $green-color;
   border-radius: 5px;
+  border: none;
 }
