@@ -2,10 +2,10 @@
 
 .button {
   padding: 15px 50px;
-  font-size: 16px;
-  font-weight: bold;
   background-color: $green-color;
   border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
   border: none;
 
   &.primary {
@@ -14,7 +14,10 @@
   }
 
   &.secundary {
-    background-color: $gray-color;
+    background-color: $white-color;
     color: $purple-color;
+    margin-top: 40px;
+    padding: 21px 70px;
+    font-size: 22px;
   }
 }
